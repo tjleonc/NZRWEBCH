@@ -21,7 +21,7 @@ ul, ol{
 
 .footerLinks{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -69,10 +69,86 @@ ul, ol{
     text-align: center;
 }
 
-.col{
-    padding: 1rem;
-    background-color: #33b5e5;
-    border: 2px solid #fff;
-    color: #fff;
+.container_ventas{
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: lightgreen;
+    justify-content: center;
+    gap: 20px;
+}
+
+.titulo{
+    font-size: 50px;
     text-align: center;
 }
+
+.caja img{
+    width: 300px;
+    height: auto;
+    transition: all 400ms ease;
+}
+
+.caja--producto3 img{
+    width: 225px;
+    height: auto;
+}
+
+.caja--producto4 img{
+    width: 246px;
+    height: auto;
+}
+
+.caja p{
+    text-align: center;
+}
+
+.caja{    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-bottom: 10%;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*HOVER*/
+
+.caja:hover div{
+	opacity: 1;
+    transition: all 0.2s ease-in;
+}
+
+.caja div{
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    background-color: rgba(255,255,255,0.3);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+
+.caja a{
+	box-sizing: border-box;
+	text-decoration: none;
+    display: block;
+    color: #eeeeee;
+    background-color: #1c5bb1;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 130px;
+    height: 50px;
+    line-height: 25px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+}
+
