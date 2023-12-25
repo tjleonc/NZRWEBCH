@@ -45,108 +45,62 @@ ul, ol{
     margin-bottom: 10%;
 }
 
-.col-sm{
-    padding: 1rem;
-    background-color: #33b5e5;
-    border: 2px solid #fff;
-    color: #fff;
-    text-align: center;
+body{
+    margin:0;
+    padding: 0;
+
 }
 
-.col-md-8{
-    padding: 1rem;
-    background-color: #33b5e5;
-    border: 2px solid #fff;
-    color: #fff;
-    text-align: center;
-}
-
-.col-md-4{
-    padding: 1rem;
-    background-color: #33b5e5;
-    border: 2px solid #fff;
-    color: #fff;
-    text-align: center;
-}
-
-.container_ventas{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: 350px;
-    padding: 50px;
-    grid-gap: 10px;
-}
-
-.titulo{
-    font-size: 50px;
-    text-align: center;
-}
-
-.caja img{
+.contenedor{
     width: 100%;
-    object-fit: cover;
-}
-
-.caja--producto3 img{
-    width: 225px;
-    height: auto;
-}
-
-.caja--producto4 img{
-    width: 246px;
-    height: auto;
-}
-
-.caja p{
-    text-align: center;
-}
-
-.caja{    
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    margin-bottom: 10%;
-    position: relative;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.caja:nth-child(*){
-    grid-column-start: span 1;
-}
-
-/*HOVER*/
-
-.caja:hover div{
-	opacity: 1;
-    transition: all 0.2s ease-in;
-}
-
-.caja div{
-    position: absolute;
-    box-sizing: border-box;
-    top: 0;
-    background-color: rgba(255,255,255,0.3);
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 0.2s ease-in;
-}
-
-.caja a{
-	box-sizing: border-box;
-	text-decoration: none;
-    display: block;
-    color: #eeeeee;
-    background-color: #1c5bb1;
-    text-align: center;
     margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 130px;
-    height: 50px;
-    line-height: 25px;
-    position: absolute;
-    font-size: 12px;
-    font-weight: bold;
+    background-color: lightgreen;
+}
+
+img{
+    width: 100%;
+}
+
+.articulo__venta{
+    margin: 5px;
+}
+
+.ventas .contenedor{
+    display: grid;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(1,100%);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(1,100%);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(2,50%);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(3,33.3%);
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(4,25%);
+    }
 }
