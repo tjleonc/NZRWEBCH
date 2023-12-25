@@ -70,7 +70,7 @@ img{
 
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) a */
 @media only screen and (max-width: 600px) {
     .ventas .contenedor{
         grid-template-columns: repeat(1,100%);
