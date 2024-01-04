@@ -1,0 +1,23 @@
+/*Acá veremos lo que hace Sass:*/
+.pruebaSass{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    article{
+        div{
+            img{
+                width: 200px;
+                height: 200px;
+                &:hover{
+                    height: 100px;
+                }
+            }
+            p{
+                color: white;
+                &:hover{ /*El & nos indica que toma el item anterior, en este caso la p (p:hover)*/
+                    color: black;
+                }
+            }
+        }
+    }
+}

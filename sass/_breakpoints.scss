@@ -1,0 +1,57 @@
+/*MEDIA QUERIES PAG NEUMATICOS*/
+
+/*Cambiar el tamaño de las imagenes para dispositivos moviles*/
+/* Extra small devices (phones, 600px and down) a */
+@media only screen and (max-width: 600px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(1,100%);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(1,100%);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(2,60%);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(3,33.3%);
+    }
+
+    .articulo__venta{
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 270px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(3,33.3%);
+    }
+
+    .articulo__venta{
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 270px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .ventas .contenedor{
+        grid-template-columns: repeat(4,25%);
+    }
+}

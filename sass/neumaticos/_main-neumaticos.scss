@@ -1,0 +1,36 @@
+.contenedor{
+    width: 80%;
+    margin: auto;
+}
+
+
+.articulo__venta{
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 350px;
+}
+
+.articulo__venta img{
+    width: 250px;
+    height: 210px;
+    object-fit: fill;
+    margin-left: 10px;
+}
+
+.ventas .contenedor{
+    display: grid;
+
+}
+
+.boton-agregar{
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
