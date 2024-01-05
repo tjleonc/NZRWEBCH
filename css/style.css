@@ -136,6 +136,26 @@
     grid-template-columns: repeat(4, 25%);
   }
 }
+/*Se usa @extend para replicar un estilo*/
+/*@Mixin: flex-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+Basicamente creamos una variable que contiene propiedades y valores que se puede reutilizar en el momento que queramos
+utilizando @include flex-align; (que en este caso es el nombre de nuestro mixin)
+
+
+@mixin sizes($width, $height){
+    width:$width;
+    height:$height;
+}
+
+@include sizes(150px, 150px)
+
+acá creamos un mixin para que nosotros le demos la variable que nosotros queramos al momento de llamar
+asi nos ahorramos dos lineas de codigo en el momento de utilizar height y width:D
+*/
 .carousel-item {
   max-height: 500px;
 }
@@ -161,5 +181,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/*Comando sass: sass --watch sass/style.scss css/style.css*/
 
 /*# sourceMappingURL=style.css.map */
