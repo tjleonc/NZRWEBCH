@@ -3,6 +3,7 @@
 @import "pruebasass";
 @import "neumaticos/main-neumaticos";
 @import "breakpoints";
+@import "llantas/main-llantas";
 
 /*Se usa @extend para replicar un estilo*/
 
@@ -53,3 +54,46 @@ body{
 }
 
 /*Comando sass: sass --watch sass/style.scss css/style.css*/
+
+
+
+
+
+
+
+
+
+/*Degradado de colores*/
+#cards{
+    // background-image: linear-gradient(to left, red, yellow);
+    // background-image: radial-gradient(circle,  red, yellow);
+    background-image: radial-gradient(ellipse 200px 200px,  red, yellow); //los pixeles que se muestran son el tamaño del elipse
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

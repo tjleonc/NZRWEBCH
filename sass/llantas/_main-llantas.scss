@@ -1,10 +1,9 @@
-.contenedor{
+.contenedor--llantas{
     width: 80%;
     margin: auto;
 }
 
-
-.articulo__venta{
+.articulo__venta .llanta1{
     margin-top: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -12,14 +11,25 @@
     width: 350px;
 }
 
-.articulo__venta img{
-    width: 250px;
-    height: 250px;
-    object-fit: fill; 
-    margin-left: 10px;
+.articulo__venta .llanta2{
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 350px;
 }
 
-.ventas .contenedor{
+img.tamaño1{
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    margin: 30px 60px 20px 40px;
+
+}
+
+
+
+.ventas .contenedor--llantas{
     display: grid;
 }
 
