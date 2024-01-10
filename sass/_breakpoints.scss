@@ -34,7 +34,16 @@
         overflow: hidden;
         width: 270px;
     }
-} 
+
+    form.nosotros{
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    input#name, input#email, input#phone, textarea#message{
+        padding: 15px;
+    }
+    
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -54,4 +63,6 @@
     .ventas .contenedor, .ventas .contenedor--llantas{
         grid-template-columns: repeat(4,25%);
     }
+}
+
 }
