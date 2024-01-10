@@ -2,4 +2,31 @@
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+    display: grid;
+    border: 2px solid black;
+}
+
+.about-us h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+.sobre-nosotros .casa-llanta{
+    max-width: 70%;
+}
+
+.casa-llanta img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 115px;
+
+}
+
+.casa-llanta{
+    flex: 1;
+    max-width: 50%;
+    padding-bottom: 20px;
 }
