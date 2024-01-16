@@ -5,7 +5,21 @@
 @media only screen and (max-width: 600px) {
     .ventas .contenedor, .ventas .contenedor--llantas{
         grid-template-columns: repeat(1,100%);
+        margin-left: 22%;
+        .articulo__venta{
+            img{
+                margin: 50px;
+            }
+            h2{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+        }
     }
+
+
 
     .about-us {
     grid-template-columns: repeat(1,100%);
@@ -20,10 +34,11 @@
     }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
     .ventas .contenedor, .ventas .contenedor--llantas{
         grid-template-columns: repeat(1,100%);
     }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
