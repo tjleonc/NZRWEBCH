@@ -11,12 +11,37 @@
 }
 #footer .footerLinks {
   display: flex;
-  justify-content: flex-start;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 140%;
+  justify-content: center;
+  padding-left: 20%;
 }
 #footer .footerLinks a {
   text-decoration: none;
   color: #fff;
+}
+
+.buttonsSocialmedia {
+  width: 80%;
+  margin: 0 auto;
+  padding-right: 30px;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.iconoFb, .iconoIg, .iconoWsp {
+  margin-left: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+.buttonTitle {
+  color: white;
+  text-align: right;
+  margin-right: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*NAVBAR*/
@@ -50,6 +75,38 @@
 }
 .pruebaSass article div p:hover { /*El & nos indica que toma el item anterior, en este caso la p (p:hover)*/
   color: black;
+}
+
+.carousel-item {
+  max-height: 500px;
+}
+
+h3 {
+  color: #fff;
+}
+
+h5 {
+  color: #fff;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-bottom: 10%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Comando sass: sass --watch sass/style.scss css/style.css*/
+/*Degradado de colores*/
+#cards {
+  background-image: radial-gradient(ellipse 200px 200px, red, yellow);
 }
 
 .contenedor {
@@ -140,6 +197,7 @@
   form.contacto {
     padding: 50px 30px;
     width: 100%;
+    margin: 50px 0px 0px 50px;
   }
   input#name, input#email, input#phone, textarea#message {
     padding: 15px;
@@ -223,13 +281,14 @@ img.tamaño1 {
 
 form.contacto {
   background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 50px 55px;
   background: #000046; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #1CB5E0, #000046); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 20px;
   text-align: center;
   width: 800px;
+  padding: 50px 55px;
+  margin: 50px 0px 50 px 0;
 }
 
 .input-group {
@@ -342,36 +401,5 @@ utilizando @include flex-align; (que en este caso es el nombre de nuestro mixin)
 acá creamos un mixin para que nosotros le demos la variable que nosotros queramos al momento de llamar
 asi nos ahorramos dos lineas de codigo en el momento de utilizar height y width:D
 */
-.carousel-item {
-  max-height: 500px;
-}
-
-h3 {
-  color: #fff;
-}
-
-h5 {
-  color: #fff;
-}
-
-ul, ol {
-  list-style: none;
-}
-
-.card {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  margin-bottom: 10%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-/*Comando sass: sass --watch sass/style.scss css/style.css*/
-/*Degradado de colores*/
-#cards {
-  background-image: radial-gradient(ellipse 200px 200px, red, yellow);
-}
 
 /*# sourceMappingURL=style.css.map */

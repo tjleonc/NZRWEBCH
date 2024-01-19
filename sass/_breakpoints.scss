@@ -38,7 +38,6 @@
     .ventas .contenedor, .ventas .contenedor--llantas{
         grid-template-columns: repeat(1,100%);
     }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -64,6 +63,7 @@
     form.contacto{
         padding: 50px 30px;
         width: 100%;
+        margin: 50px 0px 0px 50px;
     }
 
     input#name, input#email, input#phone, textarea#message{

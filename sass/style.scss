@@ -30,53 +30,6 @@ asi nos ahorramos dos lineas de codigo en el momento de utilizar height y width:
 */
 
 
-.carousel-item{
-    max-height: 500px;
-}
-
-h3{
-    color: #fff;
-}
-
-h5{
-    color: #fff;
-}
-
-ul, ol{
-    list-style: none;
-}
-.card{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    margin-bottom: 10%;
-}
-
-body{
-    margin:0;
-    padding: 0;
-}
-
-/*Comando sass: sass --watch sass/style.scss css/style.css*/
-
-
-
-
-
-
-
-
-
-/*Degradado de colores*/
-#cards{
-    // background-image: linear-gradient(to left, red, yellow);
-    // background-image: radial-gradient(circle,  red, yellow);
-    background-image: radial-gradient(ellipse 200px 200px,  red, yellow); //los pixeles que se muestran son el tamaño del elipse
-    
-    
-}
-
-
-
-
 
 
 
