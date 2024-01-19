@@ -5,6 +5,10 @@
     grid-template-columns: repeat(auto-fill, minmax(325px , 1fr));
 }
 
+.titleNeumaticos{
+    text-align: center;
+}
+
 
 .articulo__venta{
     margin-top: 10px;
@@ -19,7 +23,7 @@
     width: 250px;
     height: 250px;
     object-fit: fill; 
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 .boton-agregar{

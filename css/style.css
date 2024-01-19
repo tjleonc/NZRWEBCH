@@ -116,6 +116,10 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
 }
 
+.titleNeumaticos {
+  text-align: center;
+}
+
 .articulo__venta {
   margin-top: 10px;
   border: 1px solid #ddd;
@@ -129,7 +133,7 @@ body {
   width: 250px;
   height: 250px;
   object-fit: fill;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 .boton-agregar {
@@ -254,7 +258,19 @@ img.tamaño1 {
   width: 200px;
   height: 200px;
   object-fit: fill;
-  margin: 30px 60px 20px 40px;
+  margin: 30px 60px 20px 75px;
+}
+
+img.tamaño {
+  margin-left: 60px;
+}
+
+.titleLlantas {
+  text-align: center;
+}
+
+.precio {
+  text-align: center;
 }
 
 .ventas {
@@ -288,7 +304,7 @@ form.contacto {
   text-align: center;
   width: 800px;
   padding: 50px 55px;
-  margin: 50px 0px 50 px 0;
+  margin: 50px 0px 50px 0px;
 }
 
 .input-group {
